@@ -22,3 +22,26 @@ Bash Shell: The script is written for Unix-like environments (Linux, macOS, WSL 
 
 IAM Permissions: The IAM user or role running the script should have read-only permissions to all AWS services being queried.
 
+## Setup
+
+### STEPS
+1. clone the Repository:
+```sh
+https://github.com/Aymogul/Aws-resource-script.git
+```
+
+2. Configure AWS CLI:
+Ensure your AWS CLI is configured with the necessary credentials and default region
+```sh
+aws configure
+```
+
+3. Make script Executable:
+Give execution permission to the script
+```sh
+chmod +x aws_resource_list.sh
+```
+
+### Usage 
+1. Run the script
+This can be executed directly from the command line after
