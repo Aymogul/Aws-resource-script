@@ -5,6 +5,23 @@ This repository contains a script designed to automate the process of listing al
 The focus of this project is to provide a solution for listing resources of a user 
 on AWS in an automated way, and basically could be used to perform cron job as the case may suit the user and the need in the line of automation.
 
+## Supported Services
+The script currently supports listing resources for the following AWS services:
+
+1. EC2
+2. RDS
+3. S3
+4. CloudFront
+5. VPC
+6. IAM
+7. Route53
+8. CloudWatch
+9. CloudFormation
+10. Lambda
+11. SNS
+12. SQS
+13. DynamoDB
+14. EBS
 
 ## Features
 - Multi-Region Support: The script can query resources across multiple AWS regions.
@@ -64,7 +81,10 @@ regions="us-east-1"
 ```
 This command will list all EC2 instances in the `us-east-1` region.
 
-4. 
+4. Valid AWS Services:
+
+The script supports various services like `ec2`, `rds`, `s3`, `cloudfront`, `vpc`, `iam`, `route53`, `cloudwatch`, `cloudformation`, `lambda`, `sns`, `sqs`, `dynamodb`, and `ebs`.
+ 
 
 
 
