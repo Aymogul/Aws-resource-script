@@ -5,13 +5,20 @@ This repository contains a script designed to automate the process of listing al
 The focus of this project is to provide a solution for listing resources of a user 
 on AWS in an automated way, and basically could be used to perform cron job as the case may suit the user and the need in the line of automation.
 
-## Prerequisite 
-- AWS account 
-- IAM user with required permission
-- shell script
 
 ## Features
 - Multi-Region Support: The script can query resources across multiple AWS regions.
 - Service Coverage: Lists resources from major AWS services such as EC2, S3, RDS, Lambda, and more.
 - Output Formats: Results can be outputted in plain text or saved to a file for easy integration with other tools.
 - Error Handling: Includes basic error handling to manage API rate limits and service-specific issues.
+
+
+## Prerequisites
+Before running the script, ensure you have the following:
+
+AWS CLI: Installed and configured with the necessary permissions to query AWS resources.
+
+Bash Shell: The script is written for Unix-like environments (Linux, macOS, WSL on Windows).
+
+IAM Permissions: The IAM user or role running the script should have read-only permissions to all AWS services being queried.
+
