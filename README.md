@@ -44,4 +44,27 @@ chmod +x aws_resource_list.sh
 
 ### Usage 
 1. Run the script
-This can be executed directly from the command line after
+This can be executed directly from the command line after you have logged into an EC2 via ssh or puTTY
+```sh
+./aws_resource_list.sh <aws_region> <aws_service>
+```
+example usage
+```sh
+./aws_resource_list.sh us-east-1 ec2
+```
+2. Output:
+This script will run and the output of the AWS resource list will be outputed to `aws_resources.txt`.
+```sh
+./_aws_resource_list.sh > aws_resources.txt
+```
+3. Customization of Regions and other Variables:
+By default, the script will query resources in all regions. You can edit the regions variable in the script to specify particular regions:
+```sh
+regions="us-east-1"
+```
+This command will list all EC2 instances in the `us-east-1` region.
+
+4. 
+
+
+
