@@ -85,6 +85,20 @@ This command will list all EC2 instances in the `us-east-1` region.
 
 The script supports various services like `ec2`, `rds`, `s3`, `cloudfront`, `vpc`, `iam`, `route53`, `cloudwatch`, `cloudformation`, `lambda`, `sns`, `sqs`, `dynamodb`, and `ebs`.
  
+### Error Handling
+AWS CLI Not Installed: The script checks if AWS CLI is installed and configured. If not, it will prompt the user to install and configure it.
+Invalid Service: If an unsupported service is specified, the script will return an error message.
 
+### Customization
+Additional Services: You can modify the script to include additional AWS services by adding new cases to the case block.
+Output Format: The script can be enhanced to format output in different ways (e.g., JSON, CSV) depending on your requirements.
+
+### Contribution
+Contributions are welcome! If you have improvements or additional features, feel free to fork the repository and submit a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+This README provides a comprehensive guide to setting up, using, and customizing the AWS Resource Listing Automation Script. With this script, you can efficiently inventory and manage AWS resources across various services and regions.
 
 
