@@ -1,0 +1,41 @@
+    1  sudo apt install git -y
+    2  git clone https://github.com/Aymogul/Aws-resource-script.git
+    3  ls
+    4  cd Aws-resource-script/
+    5  ls
+    6  ll
+    7  ./aws_resource_list.sh us-east-1 ec2
+    8  chmod +x aws_resource_list.sh
+    9  ll
+   10  ./aws_resource_list.sh us-east-1 ec2
+   11  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   12  unzip awscliv2.zip
+   13  sudo ./aws/install
+   14  cd ..
+   15  ls
+   16  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   17  unzip awscliv2.zip
+   18  sudo ./aws/install
+   19  ls
+   20  sudo apt update
+   21  sudo apt install unzip
+   22  unzip awscliv2.zip
+   23  sudo ./aws/install
+   24  aws --version
+   25  ls
+   26  cd Aws-resource-script/
+   27  ls
+   28  ./aws_resource_list.sh us-east-1 ec2
+   29  aws configure
+   30  clear
+   31  ./aws_resource_list.sh us-east-1 ec2
+   32  aws configure
+   33  ./aws_resource_list.sh us-east-1 ec2
+   34  ls
+   35  ./aws_resource_list.sh us-east-1 ec2./lll
+   36  lss3
+   37  cd ..
+   38  ls
+   39  cd Aws-resource-script/
+   40  ./aws_resource_list.sh us-east-1 s3
+   41  ls
