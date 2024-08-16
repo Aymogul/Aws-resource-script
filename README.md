@@ -47,16 +47,25 @@ IAM Permissions: The IAM user or role running the script should have read-only p
 https://github.com/Aymogul/Aws-resource-script.git
 ```
 
-2. Configure AWS CLI:
+2. Install nstall AWS CLI
+```sh
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+ 
+3. Configure AWS CLI:
 Ensure your AWS CLI is configured with the necessary credentials and default region
 ```sh
 aws configure
 ```
 
-3. Make script Executable:
+4. Make script Executable:
 Give execution permission to the script
 ```sh
 chmod +x aws_resource_list.sh
+or 
+chmod 771 aws_resource_list.sh
 ```
 
 ### Usage 
