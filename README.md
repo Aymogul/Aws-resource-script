@@ -40,7 +40,7 @@ Bash Shell: The script is written for Unix-like environments (Linux, macOS, WSL 
 IAM Permissions: The IAM user or role running the script should have read-only permissions to all AWS services being queried.
 
 ## Setup
-
+![alt text](./screenshots/aws-cli-a.PNG)
 ### STEPS
 1. clone the Repository:
 ```sh
