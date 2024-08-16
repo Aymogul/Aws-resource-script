@@ -53,6 +53,7 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 ```
+![alt text](./screenshots/cli-version.PNG)
  
 3. Configure AWS CLI:
 Ensure your AWS CLI is configured with the necessary credentials and default region
@@ -83,6 +84,10 @@ This script will run and the output of the AWS resource list will be outputed to
 ```sh
 ./_aws_resource_list.sh > aws_resources.txt
 ```
+![alt text](./screenshots/script-output.PNG)
+
+![alt text](./screenshots/s3-list.PNG)
+
 3. Customization of Regions and other Variables:
 By default, the script will query resources in all regions. You can edit the regions variable in the script to specify particular regions:
 ```sh
